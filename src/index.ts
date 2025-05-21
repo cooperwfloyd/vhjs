@@ -52,7 +52,7 @@ const vh: Vh = () => {
   if (document.readyState === "complete") {
     vhCalc();
   } else {
-    document.addEventListener("load", vhCalc);
+    window.addEventListener("load", vhCalc);
   }
 };
 
