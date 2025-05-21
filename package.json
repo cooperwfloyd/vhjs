@@ -4,7 +4,7 @@
     "node": ">=16 <23",
     "npm": ">=9 <11"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/src/index.js",
   "types": "dist/types/vhjs/index.d.ts",
   "repository": {
