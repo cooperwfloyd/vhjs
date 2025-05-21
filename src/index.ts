@@ -49,13 +49,10 @@ export const vhCalc: VhCalc = () => {
 };
 
 const vh: Vh = () => {
-  if (
-    document.readyState === "interactive" ||
-    document.readyState === "complete"
-  ) {
+  if (document.readyState === "complete") {
     vhCalc();
   } else {
-    document.addEventListener("DOMContentLoaded", vhCalc);
+    document.addEventListener("load", vhCalc);
   }
 };
 
